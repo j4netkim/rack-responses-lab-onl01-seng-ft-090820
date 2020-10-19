@@ -7,10 +7,8 @@ class Application
     t1 = Time.now.hour
 
 
-    if t1 > 12
+    if t1 > 12 || t1 == 12
       resp.write "Good Afternoon!"
-    elsif t1 == 12
-      resp.write "Good Afternoon"
     else
       resp.write "Good Morning!"
     end
