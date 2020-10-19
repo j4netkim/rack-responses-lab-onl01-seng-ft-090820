@@ -6,4 +6,8 @@ class Application
 
     t1 = Kernel.rand(1..24)
 
+    resp.write "#{t1}\n"
+
+    
+
 end
