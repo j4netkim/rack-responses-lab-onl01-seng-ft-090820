@@ -4,8 +4,7 @@ class Application
   def call(env)
     resp = Rack::Response.new
 
-    # t1 = Kernel.rand(1..24)
-    t1 = Time.now.to_i
+    t1 = Kernel.rand(1..24)
 
     resp.write "#{t1}\n"
 
