@@ -10,7 +10,7 @@ class Application
 
     if t1 > 12 || t1 == 12
       resp.write "Good Afternoon!"
-    elsif t1 < 12
+    elsif t1 != 12 && t1 < 12
       resp.write "Good Morning!"
     else
       resp.write "Good Morning!"
