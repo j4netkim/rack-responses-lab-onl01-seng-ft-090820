@@ -9,7 +9,7 @@ class Application
 
     resp.write "#{t1}\n"
 
-    if t1 > 12 && t1 == 12
+    if t1 > 12 || t1 == 12
       resp.write "Good Afternoon!"
     else
       resp.write "Good Morning!"
